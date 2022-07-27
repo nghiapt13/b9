@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header {
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    align-items: center;
+    background-color: #FCF5ED;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+span {
+    padding: 1rem;
+}
+
+.header_right {
+    display: flex;
+    padding: 2rem;
+}
+
+.lan {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.lan:hover .content {
+    display: block;
+}
+
+.money {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.money:hover .content {
+    display: block;
+}
+
+.content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 16rem;
+    box-shadow: 0rem 0.8rem 1.6rem 0rem rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.content a {
+    color: black;
+    padding: 1.2rem 1.6rem;
+    text-decoration: none;
+    display: block;
+}
+
+.fa-chevron-down {
+    padding-left: 1rem;
+}
+
+.top {
+    justify-content: space-around;
+    font-size: 2rem;
+    margin-top: 10rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.top_mid {
+    margin-left: 35%;
+    padding: 0.5rem;
+    margin-top: -7rem;
+}
+
+.top_right {
+    margin-left: 90%;
+    margin-top: -3rem;
+    display: block;
+}
+
+.home {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.home .content {
+    border-bottom: 0.5rem solid #F3C3A2;
+    width: 25rem;
+    height: 15rem;
+}
+
+.home:hover {
+    color: #FAB17F;
+}
+
+.home:hover .content {
+    display: block;
+}
+
+.shop {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.shop .content {
+    border-bottom: 0.5rem solid #F3C3A2;
+    width: 25rem;
+    height: 15rem;
+}
+
+.shop:hover {
+    color: #FAB17F;
+}
+
+.shop:hover .content {
+    display: block;
+}
+
+.blog {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.blog .content {
+    border-bottom: 0.5rem solid #F3C3A2;
+    width: 25rem;
+    height: 15rem;
+}
+
+.blog:hover {
+    color: #FAB17F;
+}
+
+.blog:hover .content {
+    display: block;
+}
+
+.page {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.page .content {
+    border-bottom: 0.5rem solid #F3C3A2;
+    width: 25rem;
+    height: 20rem;
+}
+
+.page:hover {
+    color: #FAB17F;
+}
+
+.page:hover .content {
+    display: block;
+}
+
+.a_link:hover {
+    background-color: gray;
+    transition: 0.3s;
+}
+
+.b_link:hover {
+    background-color: #18F689;
+    transition: 0.3s;
+}

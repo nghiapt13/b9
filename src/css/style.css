@@ -191,12 +191,13 @@ span {
 .num{
     padding-left: 0.9rem;
     padding-right: 0.9rem;
-    -webkit-border-radius: 0.9rem;
-    -moz-border-radius: 0.9rem;
-    border-radius: 0.9rem;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    font-family: 'Josefin Sans', sans-serif;
 }
 #cartnum{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     background: #ff0000;
     color: #fff;
     padding: 0 0.5rem;

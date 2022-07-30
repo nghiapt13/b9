@@ -75,6 +75,17 @@ span {
     font-family: 'Josefin Sans', sans-serif;
 }
 
+.top_left span {
+    font-size: 6rem;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Gruppo', cursive;
+}
+
+.bitc_logo img {
+    padding-left: 5rem;
+}
+
 .top_mid {
     margin-left: 35%;
     padding: 0.5rem;
@@ -83,8 +94,9 @@ span {
 
 .top_right {
     margin-left: 90%;
-    margin-top: -3rem;
+    margin-top: -4rem;
     display: block;
+    margin-left: 80%;
 }
 
 .home {
@@ -175,4 +187,97 @@ span {
 .b_link:hover {
     background-color: #18F689;
     transition: 0.3s;
+}
+.num{
+    padding-left: 0.9rem;
+    padding-right: 0.9rem;
+    -webkit-border-radius: 0.9rem;
+    -moz-border-radius: 0.9rem;
+    border-radius: 0.9rem;
+}
+#cartnum{
+    font-size: 1.2rem;
+    background: #ff0000;
+    color: #fff;
+    padding: 0 0.5rem;
+    vertical-align: top;
+    margin-left: -1rem; 
+}
+.box_merchandise {
+    width: 25rem;
+    height: 40rem;
+    font-size: 1.5rem;
+    background-color: #FCF5ED;
+}
+
+.merchandise . {
+    display: flex;
+}
+
+.button {
+    display: flex;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    width: 10rem;
+    height: 4rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
+.m {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1.5rem;
+    margin-left: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.name {
+    margin-left: 5%;
+}
+
+.price {
+    padding-top: 0.5rem;
+}
+
+.allprice {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-left: 1.5rem;
+}
+
+.a_price {
+    margin-left: 10rem;
+    font-size: 2.5rem;
+}
+
+.item {
+    cursor: pointer;
+}
+
+.item:hover {
+    color: #F3C3A2;
+    transition: 0.3s;
+}
+
+.box_merchandise {
+    display: none;
+    position: absolute;
+}
+
+.item:hover .box_merchandise {
+    display: block;
+    color: black;
 }
